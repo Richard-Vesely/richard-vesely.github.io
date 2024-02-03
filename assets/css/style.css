@@ -753,12 +753,29 @@ table td {
 
 /* Style for each blog card */
 .blog-card {
-  flex-basis: calc(30% - 20px);
+  flex-basis: calc(48% - 20px);
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 10px;
+  background-color: #f5f5f5; /* Default background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #f5f5f5; /* Greyish background color */
+}
+
+/* Style for cards based on data-category */
+.blog-card[data-category=science] {
+  background: linear-gradient(to right top, #e9f3ff, #ffffff);
+}
+
+.blog-card[data-category=letters] {
+  background: linear-gradient(to right top, #f1dee8, #ffffff);
+}
+
+.blog-card[data-category=personal-growth] {
+  background: linear-gradient(to right top, #fff9e8, #ffffff);
+}
+
+.blog-card[data-category=education] {
+  background: linear-gradient(to right top, #f1fff5, #ffffff);
 }
 
 /* Hover effect for the cards (optional) */
@@ -772,6 +789,12 @@ table td {
   color: #333;
 }
 
+.blog-card p {
+  font-size: 14px; /* Adjust the font size of the excerpt */
+  color: #2c2b2b; /* Style the excerpt color */
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
 .blog-card img {
   max-width: 100%;
   border-radius: 5px;
@@ -781,23 +804,28 @@ table td {
 /* Reduce spacing between individual words in the title */
 .blog-card h2 {
   line-height: 1.2; /* Adjust this value as needed */
+  font-size: 24px;
 }
 
-.date {
+.blog-card p.date {
   font-size: 0.8em;
   color: #888;
 }
 
 /* Add more CSS as needed for larger screens */
 @media screen and (max-width: 768px) {
-  /* Styles for screens 768px and smaller (e.g., tablets and phones) */
-  .blog-grid {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
   .blog-card {
-    flex-basis: 100%;
-    /* Modify styles to fit a single column layout for smaller screens */
+    padding-top: 5px; /* Reduce top padding */
+    /* Keep other styles as is, or adjust as needed */
+    flex-basis: 100%; /* Full width */
+    margin-bottom: 20px;
+    padding-right: 15px; /* Maintain the original side padding */
+    padding-left: 15px;
+    padding-bottom: 0px; /* Maintain the original bottom padding */
+  }
+  .blog-card h2 {
+    margin-top: 0; /* Reduce space above the title */
+    /* Adjust other h2 styles as needed */
   }
 }
 .description {
