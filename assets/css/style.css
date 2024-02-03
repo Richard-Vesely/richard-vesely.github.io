@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .highlight .c {
   color: #998;
   font-style: italic;
@@ -801,6 +802,97 @@ table td {
 }
 .description {
   margin-top: 20px; /* Adjust this value as needed for the desired gap */
+}
+
+/* Reset list styles for the menu and remove margin and padding */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Horizontal main menu */
+.menu > li {
+  float: left;
+  position: relative;
+}
+
+.menu > li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black; /* Make text color black */
+  position: relative; /* For bottom border effect on hover */
+}
+
+/* Bottom border on hover without moving the layout */
+.menu > li a:hover {
+  border-bottom: 2px solid lightblue; /* Keep the underline for top-level items */
+  padding-bottom: 8px; /* Adjust padding to keep layout consistent */
+}
+
+/* Hide bullet points and adjust spacing for dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  list-style-type: none; /* Remove bullet points */
+  left: 50%;
+  transform: translateX(-50%); /* Center dropdown */
+}
+
+/* Styling for links within the dropdown */
+.dropdown-content li a {
+  padding: 2px 10px; /* Slightly reduced padding */
+  display: block;
+  color: black;
+  background-color: #FFF;
+  text-align: left;
+  line-height: 1.2; /* Adjusted line height for tighter spacing */
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 0px; /* Remove the underline */
+}
+
+/* Overrides to remove the blue underline on hover in dropdown items */
+.dropdown-content li a:hover {
+  border-bottom: none; /* Removes the underline */
+  background-color: #f0f0f0; /* Light grey background on hover */
+}
+
+/* Show dropdown on hover and adjust dropdown position */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown > a {
+  margin-right: 18px; /* Adjust as needed */
+}
+
+/* Triangle indicator adjustments */
+.dropdown > a:after {
+  content: "▼";
+  font-size: 13px; /* Make triangle larger */
+  position: absolute;
+  right: -5px; /* Move more to the right */
+  top: 52%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+/* To prevent the layout shift, adjust the padding and include the border in the initial state */
+.menu > li a {
+  border-bottom: 2px solid transparent; /* Transparent border */
+  padding-bottom: 8px;
+}
+
+/* Prevents dropdown content from being cut off on smaller screens */
+.dropdown-content {
+  clear: both;
+  top: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
