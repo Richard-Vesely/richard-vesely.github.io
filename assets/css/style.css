@@ -832,6 +832,16 @@ table td {
   margin-top: 20px; /* Adjust this value as needed for the desired gap */
 }
 
+body, .site-header {
+  border-top: none !important;
+}
+
+/* If there's a margin or padding that might be causing space at the top, you can reset it too */
+body, .site-header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 /* Reset list styles for the menu and remove margin and padding */
 .menu {
   list-style: none;
@@ -921,6 +931,43 @@ table td {
 .dropdown-content {
   clear: both;
   top: 100%;
+}
+
+/* Hamburger Icon Style */
+.hamburger-icon {
+  display: none; /* Hidden by default, shown in mobile view */
+  cursor: pointer;
+  font-size: 30px; /* Adjust as needed */
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+/* Mobile Menu Style */
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+  .site-nav ul {
+    display: none; /* Hide the menu initially */
+    flex-direction: column;
+    width: 100%;
+  }
+  .site-nav ul li {
+    text-align: left;
+  }
+  .site-nav ul li a {
+    display: block; /* Makes the links fill their container */
+  }
+  .dropdown-content {
+    display: none; /* Ensure dropdown contents are hidden initially */
+  }
+}
+/* Show the menu when it's active */
+.menu.active {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

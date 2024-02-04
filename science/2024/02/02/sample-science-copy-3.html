@@ -22,18 +22,73 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png" >
 
   <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Richard Veselý" />
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var hamburger = document.querySelector('.hamburger-icon');
+  var menu = document.querySelector('.site-nav ul');
+  var dropdowns = document.querySelectorAll('.dropdown > a');
+
+  hamburger.addEventListener('click', function() {
+    menu.classList.toggle('active'); // Toggle the active class to show/hide the menu
+  });
+
+  // Handling dropdown click to toggle dropdown content visibility
+  dropdowns.forEach(function(dropdownToggle) {
+    dropdownToggle.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default link behavior
+      
+      var dropdownContent = this.nextElementSibling;
+      var isOpen = dropdownContent.style.display === 'block';
+
+      // Close all other dropdown contents
+      document.querySelectorAll('.dropdown-content').forEach(function(content) {
+        content.style.display = 'none';
+      });
+
+      // Toggle this dropdown
+      dropdownContent.style.display = isOpen ? 'none' : 'block';
+    });
+  });
+
+  // Optional: Close the menu when a link is clicked (excluding dropdown toggles)
+  document.querySelectorAll('.menu a:not(.dropdown > a)').forEach(function(link) {
+    link.addEventListener('click', function() {
+      menu.classList.remove('active');
+    });
+  });
+});
+
+    </script>
+    
 </head>
 <body><header class="site-header">
   <div class="wrapper"><a class="site-title" rel="author" href="/">
       <img src="/assets/images/cropped-fav.png" alt="Site Logo" style="height: 40px; vertical-align: middle;"> Richard <strong>Veselý</strong>
-    </a><nav class="site-nav">
-        <ul class="menu"><li class="">
-              <a href="/">Home</a></li><li class="">
-              <a href="/about-me">About me</a></li><li class="dropdown">
-              <a href="">Blog</a><ul class="dropdown-content"><li><a href="/blog/science">Science</a></li><li><a href="/blog/education">Education</a></li><li><a href="/blog/personal-growth">Personal Growth</a></li><li><a href="/blog/letters-journal">Letters/Journal</a></li></ul></li><li class="">
-              <a href="/contact">Contact</a></li></ul>
-      </nav></div>
+    </a>
+
+<!-- Hamburger Menu Icon -->
+<button class="hamburger-icon">☰</button>
+
+<nav class="site-nav">
+  <ul class="menu">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about-me">About me</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)">Blog</a>
+      <ul class="dropdown-content">
+        <li><a href="/blog/science">Science</a></li>
+        <li><a href="/blog/education">Education</a></li>
+        <li><a href="/blog/personal-growth">Personal Growth</a></li>
+        <li><a href="/blog/letters-journal">Letters/Journal</a></li>
+      </ul>
+    </li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+</div>
 </header>
+
+
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
