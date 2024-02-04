@@ -943,6 +943,7 @@ body, .site-header {
   position: absolute;
   top: 20px; /* Adjust as needed */
   right: 20px; /* Adjust as needed */
+  z-index: 102; /* Ensure it's above the menu */
 }
 
 /* Mobile Menu Style */
@@ -952,22 +953,36 @@ body, .site-header {
   }
   .site-nav ul {
     display: none; /* Hide the menu initially */
+    position: absolute;
+    top: 55px; /* Adjust based on the actual height of your hamburger icon */
+    right: 0; /* Align menu to the right side of the page */
+    width: 200px; /* Set menu width */
     flex-direction: column;
-    width: 100%;
+    background-color: #fff; /* Background color of the menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+    z-index: 101; /* Ensure menu is below the hamburger icon but above other content */
   }
   .site-nav ul li {
     text-align: left;
+    border-bottom: 1px solid #ccc; /* Optional: adds a separator between menu items */
   }
   .site-nav ul li a {
     display: block; /* Makes the links fill their container */
+    padding: 10px; /* Add padding for better touch target size */
+    color: #333; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+  }
+  .site-nav ul.active {
+    display: flex; /* Change to 'flex' to show the menu */
   }
   .dropdown-content {
     display: none; /* Ensure dropdown contents are hidden initially */
   }
 }
-/* Show the menu when it's active */
-.menu.active {
-  display: flex;
+/* Additional style for when dropdown is active */
+.site-nav .dropdown-content.active {
+  display: block; /* Show dropdown content when active */
+  padding-left: 20px; /* Indent dropdown items for visual hierarchy */
 }
 
 /*# sourceMappingURL=style.css.map */
