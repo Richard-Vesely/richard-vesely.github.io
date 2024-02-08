@@ -913,7 +913,7 @@ table td {
 .contact-form-container button {
   width: 100%;
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -938,6 +938,46 @@ table td {
   font-weight: bold;
   text-align: center; /* Center align if desired */
   margin-bottom: 20px; /* Spacing before the form starts */
+}
+
+.message-received-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.message-received-thank-you-message {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-received-p {
+  font-size: 16px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000; /* Black background */
+  color: #fff !important; /* White text, ensuring override of <a> tag default styles */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent; /* Transparent border by default */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #a2c9f3 !important; /* Change text color to blue on hover/focus */
+  text-decoration: none; /* Override any text-decoration changes on hover/focus/active */
 }
 
 body, .site-header {
