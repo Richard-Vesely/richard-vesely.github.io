@@ -3,25 +3,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Exciting Science Discovery | Richard Veselý</title>
+<title>How to catch a cheater with math (math &amp; coding exercise) | Richard Veselý</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Exciting Science Discovery" />
+<meta property="og:title" content="How to catch a cheater with math (math &amp; coding exercise)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Your science post content goes here." />
-<meta property="og:description" content="Your science post content goes here." />
-<link rel="canonical" href="https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html" />
-<meta property="og:url" content="https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html" />
+<meta name="description" content="This problem is inspired by a game from the Primer YouTube channel." />
+<meta property="og:description" content="This problem is inspired by a game from the Primer YouTube channel." />
+<link rel="canonical" href="http://localhost:4000/science/2023/05/15/catch-cheater.html" />
+<meta property="og:url" content="http://localhost:4000/science/2023/05/15/catch-cheater.html" />
 <meta property="og:site_name" content="Richard Veselý" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-02-02T00:00:00+01:00" />
+<meta property="article:published_time" content="2023-05-15T00:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Exciting Science Discovery" />
+<meta property="twitter:title" content="How to catch a cheater with math (math &amp; coding exercise)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-02T00:00:00+01:00","datePublished":"2024-02-02T00:00:00+01:00","description":"Your science post content goes here.","headline":"Exciting Science Discovery","mainEntityOfPage":{"@type":"WebPage","@id":"https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html"},"url":"https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-15T00:00:00+02:00","datePublished":"2023-05-15T00:00:00+02:00","description":"This problem is inspired by a game from the Primer YouTube channel.","headline":"How to catch a cheater with math (math &amp; coding exercise)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/science/2023/05/15/catch-cheater.html"},"url":"http://localhost:4000/science/2023/05/15/catch-cheater.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png" >
 
-  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://richard-vesely.github.io/feed.xml" title="Richard Veselý" />
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Richard Veselý" />
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var hamburger = document.querySelector('.hamburger-icon');
@@ -57,7 +57,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+      if (!link.href.includes(location.hostname)) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      }
+    });
+  });
     </script>
     
 </head>
@@ -82,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <li><a href="/blog/letters-journal">Letters/Journal</a></li>
       </ul>
     </li>
-    <!--li><a href="/contact">Contact</a></li-->
+    <li><a href="/contact">Contact</a></li>
   </ul>
 </nav>
 </div>
@@ -94,16 +101,50 @@ document.addEventListener("DOMContentLoaded", function() {
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Exciting Science Discovery</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2024-02-02T00:00:00+01:00" itemprop="datePublished">
-        Feb 2, 2024
+    <h1 class="post-title p-name" itemprop="name headline">How to catch a cheater with math (math &amp; coding exercise)</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-05-15T00:00:00+02:00" itemprop="datePublished">
+        May 15, 2023
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Your science post content goes here.</p>
+    <p>This problem is inspired by a game from the <a href="https://www.youtube.com/watch?v=XTcP4oo4JI4&amp;t=33s">Primer YouTube channel</a>.</p>
 
-  </div><a class="u-url" href="/personal-growth/2024/02/02/sample-science-copy-6.html" hidden></a>
+<p>Your goal is to come up with an algorithm that gives you the highest score in a <a href="https://primerlearning.org/">simple game that you can find here</a>. You achieve this by correctly labeling blobs as fair or cheating.</p>
+
+<p><img src="/assets/images/post_related/Thumbnail-257x300.png" alt="primer game screenshot" /></p>
+
+<p>Game rules:</p>
+
+<p>At each turn, you have three options:</p>
+
+<ol>
+  <li>tell the blob to flip a coin</li>
+  <li>label it as fair</li>
+  <li>label it as cheater.</li>
+</ol>
+
+<p>You start with 100 coin flips, and each time you flip a coin, you must “pay” one flip.</p>
+
+<p>If you classify the blob correctly, your score increases by one, and you receive 15 bonus flips.</p>
+
+<p>If you classify the blob incorrectly, your score does not change, but you lose 30 flips.</p>
+
+<p>Important information:</p>
+
+<ol>
+  <li>The occurrence of fair and fraudulent blobs is 1:1</li>
+  <li>The probability that a fair blob will flip heads is 50%</li>
+  <li>The probability that a fraudulent blob will flip heads is 75%</li>
+</ol>
+
+<p>Exercise:</p>
+
+<p>In <a href="https://colab.research.google.com/drive/1BUIvHzubbpCzlsY1f0T0sWSJ2s95QAHH?usp=sharing">the interactive notebook, which you can find here</a>, you can implement an algorithm to decide what to do at each turn and test how well this algorithm works.</p>
+
+<p>I hope that no previous programming experience is required for this, and everything is sufficiently explained in the notebook. If not, let me know in the comments.</p>
+
+  </div><a class="u-url" href="/science/2023/05/15/catch-cheater.html" hidden></a>
 </article>
 
       </div>
@@ -116,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          <a href="https://richard-vesely.github.io/feed.xml">
+          <a href="http://localhost:4000/feed.xml">
             <svg class="svg-icon orange">
               <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>

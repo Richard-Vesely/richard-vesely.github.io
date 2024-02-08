@@ -1,42 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://richard-vesely.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://richard-vesely.github.io/" rel="alternate" type="text/html" /><updated>2024-02-04T21:58:58+01:00</updated><id>https://richard-vesely.github.io/feed.xml</id><title type="html">Richard Veselý</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Innovative Teaching Methods</title><link href="https://richard-vesely.github.io/education/2024/02/03/sample-science-education.html" rel="alternate" type="text/html" title="Innovative Teaching Methods" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://richard-vesely.github.io/education/2024/02/03/sample-science-education</id><content type="html" xml:base="https://richard-vesely.github.io/education/2024/02/03/sample-science-education.html"><![CDATA[<p>Your education post content goes here.</p>]]></content><author><name></name></author><category term="education" /><summary type="html"><![CDATA[Your education post content goes here.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://richard-vesely.github.io/education/2024/02/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-02-02T16:32:41+01:00</published><updated>2024-02-02T16:32:41+01:00</updated><id>https://richard-vesely.github.io/education/2024/02/02/welcome-to-jekyll</id><content type="html" xml:base="https://richard-vesely.github.io/education/2024/02/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="education" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-2.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/science/2024/02/02/sample-science%20copy%202</id><content type="html" xml:base="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-2.html"><![CDATA[<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[Your science post content goes here.]]></summary></entry><entry><title type="html">Exciting</title><link href="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-3.html" rel="alternate" type="text/html" title="Exciting" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/science/2024/02/02/sample-science%20copy%203</id><content type="html" xml:base="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-3.html"><![CDATA[<p>Your science post content goes here.
-Your science post content goes here.
-Your science post content goes here.
-Your science post content goes here.
-Your science post content goes here.
-Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>
-
-<p>Your science post content goes here.
-Your science post content goes here.</p>
-
-<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[Your science post content goes here. Your science post content goes here. Your science post content goes here. Your science post content goes here. Your science post content goes here. Your science post content goes here.]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-4.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/science/2024/02/02/sample-science%20copy%204</id><content type="html" xml:base="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy-4.html"><![CDATA[<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[Your science post content goes here.]]></summary></entry><entry><title type="html">My main purpose in teaching science</title><link href="https://richard-vesely.github.io/education/2024/02/02/main-purpose-of-teaching.html" rel="alternate" type="text/html" title="My main purpose in teaching science" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/education/2024/02/02/main-purpose-of-teaching</id><content type="html" xml:base="https://richard-vesely.github.io/education/2024/02/02/main-purpose-of-teaching.html"><![CDATA[<p>Next year I am going to teach science to high school students and right now this thought thrills me more than anything else in my life because I articulated why I really want to do it.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-08T09:44:18+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Richard Veselý</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">My main purpose in teaching science</title><link href="http://localhost:4000/education/2024/02/02/main-purpose-of-teaching-copy.html" rel="alternate" type="text/html" title="My main purpose in teaching science" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>http://localhost:4000/education/2024/02/02/main-purpose-of-teaching%20copy</id><content type="html" xml:base="http://localhost:4000/education/2024/02/02/main-purpose-of-teaching-copy.html"><![CDATA[<p>Next year I am going to teach science to high school students and right now this thought thrills me more than anything else in my life because I articulated why I really want to do it.</p>
 
 <p><strong>I want to make students feel confident and love themselves by giving them something that excites them and showing them that THEY can be good at it. I almost don’t care about the science.</strong></p>
 
@@ -52,4 +14,38 @@ Your science post content goes here.</p>
 
 <p>Fuck, realising how much excited I am by this I am seriously considering dropping school and starting this full time now. I am curious if I feel the same way tomorrow, before I have cup of coffee, though.</p>
 
-<p>P.S. I think science is amazing, I also want to teach it so that I can share the beautiful “aha moments” that feel better than orgasm. But that doesn’t compare to making people believe in them.</p>]]></content><author><name></name></author><category term="education" /><summary type="html"><![CDATA[Next year I am going to teach science to high school students and right now this thought thrills me more than anything else in my life because I articulated why I really want to do it.]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science%20copy%206</id><content type="html" xml:base="https://richard-vesely.github.io/personal-growth/2024/02/02/sample-science-copy-6.html"><![CDATA[<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="personal-growth" /><summary type="html"><![CDATA[Your science post content goes here.]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/letters/2024/02/02/sample-science-copy-7.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/letters/2024/02/02/sample-science%20copy%207</id><content type="html" xml:base="https://richard-vesely.github.io/letters/2024/02/02/sample-science-copy-7.html"><![CDATA[<p>asdfasdfasdfasdfasddd</p>]]></content><author><name></name></author><category term="letters" /><summary type="html"><![CDATA[asdfasdfasdfasdfasddd]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/science/2024/02/02/sample-science%20copy</id><content type="html" xml:base="https://richard-vesely.github.io/science/2024/02/02/sample-science-copy.html"><![CDATA[<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[Your science post content goes here.]]></summary></entry><entry><title type="html">Exciting Science Discovery</title><link href="https://richard-vesely.github.io/science/2024/02/02/sample-science.html" rel="alternate" type="text/html" title="Exciting Science Discovery" /><published>2024-02-02T00:00:00+01:00</published><updated>2024-02-02T00:00:00+01:00</updated><id>https://richard-vesely.github.io/science/2024/02/02/sample-science</id><content type="html" xml:base="https://richard-vesely.github.io/science/2024/02/02/sample-science.html"><![CDATA[<p>Your science post content goes here.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[Your science post content goes here.]]></summary></entry></feed>
+<p>P.S. I think science is amazing, I also want to teach it so that I can share the beautiful “aha moments” that feel better than orgasm. But that doesn’t compare to making people believe in them.</p>]]></content><author><name></name></author><category term="education" /><summary type="html"><![CDATA[Next year I am going to teach science to high school students and right now this thought thrills me more than anything else in my life because I articulated why I really want to do it.]]></summary></entry><entry><title type="html">How to catch a cheater with math (math &amp;amp; coding exercise)</title><link href="http://localhost:4000/science/2023/05/15/catch-cheater.html" rel="alternate" type="text/html" title="How to catch a cheater with math (math &amp;amp; coding exercise)" /><published>2023-05-15T00:00:00+02:00</published><updated>2023-05-15T00:00:00+02:00</updated><id>http://localhost:4000/science/2023/05/15/catch-cheater</id><content type="html" xml:base="http://localhost:4000/science/2023/05/15/catch-cheater.html"><![CDATA[<p>This problem is inspired by a game from the <a href="https://www.youtube.com/watch?v=XTcP4oo4JI4&amp;t=33s">Primer YouTube channel</a>.</p>
+
+<p>Your goal is to come up with an algorithm that gives you the highest score in a <a href="https://primerlearning.org/">simple game that you can find here</a>. You achieve this by correctly labeling blobs as fair or cheating.</p>
+
+<p><img src="/assets/images/post_related/Thumbnail-257x300.png" alt="primer game screenshot" /></p>
+
+<p>Game rules:</p>
+
+<p>At each turn, you have three options:</p>
+
+<ol>
+  <li>tell the blob to flip a coin</li>
+  <li>label it as fair</li>
+  <li>label it as cheater.</li>
+</ol>
+
+<p>You start with 100 coin flips, and each time you flip a coin, you must “pay” one flip.</p>
+
+<p>If you classify the blob correctly, your score increases by one, and you receive 15 bonus flips.</p>
+
+<p>If you classify the blob incorrectly, your score does not change, but you lose 30 flips.</p>
+
+<p>Important information:</p>
+
+<ol>
+  <li>The occurrence of fair and fraudulent blobs is 1:1</li>
+  <li>The probability that a fair blob will flip heads is 50%</li>
+  <li>The probability that a fraudulent blob will flip heads is 75%</li>
+</ol>
+
+<p>Exercise:</p>
+
+<p>In <a href="https://colab.research.google.com/drive/1BUIvHzubbpCzlsY1f0T0sWSJ2s95QAHH?usp=sharing">the interactive notebook, which you can find here</a>, you can implement an algorithm to decide what to do at each turn and test how well this algorithm works.</p>
+
+<p>I hope that no previous programming experience is required for this, and everything is sufficiently explained in the notebook. If not, let me know in the comments.</p>]]></content><author><name></name></author><category term="science" /><summary type="html"><![CDATA[This problem is inspired by a game from the Primer YouTube channel.]]></summary></entry></feed>

@@ -895,6 +895,51 @@ table td {
   background-color: #e0e0e0; /* Changes background color on hover */
 }
 
+/* form-styles.css */
+.contact-form-container .top-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Spacing between fields */
+}
+
+.contact-form-container .full-width {
+  width: 100%;
+}
+
+.contact-form-container textarea {
+  height: 150px; /* Adjust based on your preference */
+}
+
+.contact-form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.contact-heading {
+  font-size: 32px; /* Adjust the size as needed */
+  font-weight: bold;
+  text-align: center; /* Center align if desired */
+  margin-bottom: 20px; /* Spacing before the form starts */
+}
+
 body, .site-header {
   border-top: none !important;
 }
