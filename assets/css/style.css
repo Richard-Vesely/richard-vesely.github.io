@@ -984,6 +984,13 @@ table td {
   max-width: 1000px; /* Or any specific pixel value like 1200px */
 }
 
+/*This is some stuff related to newlines displaying weirdly
+https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html
+See the post above
+
+.post-content.e-content br {display: none;}
+.post-content.e-content p br {display: inline;}
+ */
 body, .site-header {
   border-top: none !important;
 }
