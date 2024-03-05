@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/science/catch-cheater/</loc>
+<loc>http://localhost:4000/science/2023/05/15/catch-cheater.html</loc>
 <lastmod>2023-05-15T00:00:00+02:00</lastmod>
 </url>
 <url>
@@ -9,11 +9,11 @@
 <lastmod>2024-02-02T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/letters/How-to-behave-acceptably-without-surpressing-emotions/</loc>
+<loc>http://localhost:4000/letters/2024/02/10/How-to-behave-acceptably-without-surpressing-emotions.html</loc>
 <lastmod>2024-02-10T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/letters/The-1000-words-a-day-experiment/</loc>
+<loc>http://localhost:4000/letters/2024/02/16/The-1000-words-a-day-experiment.html</loc>
 <lastmod>2024-02-16T00:00:00+01:00</lastmod>
 </url>
 <url>
