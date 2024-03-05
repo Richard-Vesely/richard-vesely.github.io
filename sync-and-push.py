@@ -23,10 +23,8 @@ def copy_directory_contents(src_dir, dest_dir):
         d = os.path.join(dest_dir, item)
         try:
             if os.path.isdir(s):
-                print(f"Copying directory: {s} to {d}")
                 shutil.copytree(s, d, dirs_exist_ok=True)
             else:
-                print(f"Copying file: {s} to {d}")
                 shutil.copy2(s, d)
         except Exception as e:
             print(f"Failed to copy {s} to {d}. Error: {e}")
