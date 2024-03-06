@@ -1,9 +1,29 @@
 import subprocess
 import shutil
 import os
-# Configure paths
-blog_path = r"C:\Users\risav\personal_blog_inc_full_project"
-jekyll_shared_content_path = r"C:\Users\risav\personal_blog_inc_full_project\jekyll-shared-content"
+import yaml
+
+
+def load_paths_config(config_path):
+    """Load paths from the YAML configuration file."""
+    with open(config_path, 'r') as file:
+        return yaml.safe_load(file)
+
+# Assuming _paths_for_scripts.yml is two directory levels up from the script
+script_dir = os.path.dirname(__file__)
+paths_config_path = os.path.join(script_dir, '..', '..', '_paths_for_scripts.yml')
+paths_config_path = os.path.normpath(paths_config_path)  # Normalize the path to resolve properly
+
+
+
+# Load the paths
+paths_config = load_paths_config(paths_config_path)
+
+
+# Use the paths from the YAML file
+blog_path = paths_config['blog_path']
+jekyll_shared_content_path = paths_config['jekyll_shared_content_path']
+
 _site_path = os.path.join(blog_path, "_site")
 
 
