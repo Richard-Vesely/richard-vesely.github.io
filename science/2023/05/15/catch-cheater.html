@@ -3,20 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Thank you for message | Richard Veselý</title>
+<title>How to catch a cheater with math (math &amp; coding exercise) | Richard Veselý</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Thank you for message" />
+<meta property="og:title" content="How to catch a cheater with math (math &amp; coding exercise)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="https://richardvesely.com/message-received" />
-<meta property="og:url" content="https://richardvesely.com/message-received" />
+<meta name="description" content="This problem is inspired by a game from the Primer YouTube channel." />
+<meta property="og:description" content="This problem is inspired by a game from the Primer YouTube channel." />
+<link rel="canonical" href="https://richardvesely.com/science/2023/05/15/catch-cheater.html" />
+<meta property="og:url" content="https://richardvesely.com/science/2023/05/15/catch-cheater.html" />
 <meta property="og:site_name" content="Richard Veselý" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-15T00:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Thank you for message" />
+<meta property="twitter:title" content="How to catch a cheater with math (math &amp; coding exercise)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Thank you for message","url":"https://richardvesely.com/message-received"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-15T00:00:00+02:00","datePublished":"2023-05-15T00:00:00+02:00","description":"This problem is inspired by a game from the Primer YouTube channel.","headline":"How to catch a cheater with math (math &amp; coding exercise)","mainEntityOfPage":{"@type":"WebPage","@id":"https://richardvesely.com/science/2023/05/15/catch-cheater.html"},"url":"https://richardvesely.com/science/2023/05/15/catch-cheater.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png" >
 
@@ -151,19 +152,98 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="page">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to catch a cheater with math (math &amp; coding exercise)</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-05-15T00:00:00+02:00" itemprop="datePublished">
+        May 15, 2023
+      </time></p>
+  </header>
 
-  <div class="page-content">
-    <div class="message-received-thank-you-message">
-    <h1 class="message-received-h1">Thank You!</h1>
-    <p class="message-received-p">Your message has been successfully sent. We appreciate you contacting us and will get back to you soon.</p>
-    <a href="/" class="btn-primary">Return Home</a>
-</div>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This problem is inspired by a game from the <a href="https://www.youtube.com/watch?v=XTcP4oo4JI4&amp;t=33s">Primer YouTube channel</a>.</p>
+
+<p>Your goal is to come up with an algorithm that gives you the highest score in a <a href="https://primerlearning.org/">simple game that you can find here</a>. You achieve this by correctly labeling blobs as fair or cheating.</p>
+
+<p><img src="/assets/images/post_related/Thumbnail-257x300.webp" alt="primer game screenshot" /></p>
+
+<p>Game rules:</p>
+
+<p>At each turn, you have three options:</p>
+
+<ol>
+  <li>tell the blob to flip a coin</li>
+  <li>label it as fair</li>
+  <li>label it as cheater.</li>
+</ol>
+
+<p>You start with 100 coin flips, and each time you flip a coin, you must “pay” one flip.</p>
+
+<p>If you classify the blob correctly, your score increases by one, and you receive 15 bonus flips.</p>
+
+<p>If you classify the blob incorrectly, your score does not change, but you lose 30 flips.</p>
+
+<p>Important information:</p>
+
+<ol>
+  <li>The occurrence of fair and fraudulent blobs is 1:1</li>
+  <li>The probability that a fair blob will flip heads is 50%</li>
+  <li>The probability that a fraudulent blob will flip heads is 75%</li>
+</ol>
+
+<p>Exercise:</p>
+
+<p>In <a href="https://colab.research.google.com/drive/1BUIvHzubbpCzlsY1f0T0sWSJ2s95QAHH?usp=sharing">the interactive notebook, which you can find here</a>, you can implement an algorithm to decide what to do at each turn and test how well this algorithm works.</p>
+
+<p>I hope that no previous programming experience is required for this, and everything is sufficiently explained in the notebook. If not, let me know in the comments.</p>
 
   </div>
+  <!-- The could be     <p>This problem is inspired by a game from the <a href="https://www.youtube.com/watch?v=XTcP4oo4JI4&amp;t=33s">Primer YouTube channel</a>.</p><br />
+<br />
+<p>Your goal is to come up with an algorithm that gives you the highest score in a <a href="https://primerlearning.org/">simple game that you can find here</a>. You achieve this by correctly labeling blobs as fair or cheating.</p><br />
+<br />
+<p><img src="/assets/images/post_related/Thumbnail-257x300.webp" alt="primer game screenshot" /></p><br />
+<br />
+<p>Game rules:</p><br />
+<br />
+<p>At each turn, you have three options:</p><br />
+<br />
+<ol><br />
+  <li>tell the blob to flip a coin</li><br />
+  <li>label it as fair</li><br />
+  <li>label it as cheater.</li><br />
+</ol><br />
+<br />
+<p>You start with 100 coin flips, and each time you flip a coin, you must “pay” one flip.</p><br />
+<br />
+<p>If you classify the blob correctly, your score increases by one, and you receive 15 bonus flips.</p><br />
+<br />
+<p>If you classify the blob incorrectly, your score does not change, but you lose 30 flips.</p><br />
+<br />
+<p>Important information:</p><br />
+<br />
+<ol><br />
+  <li>The occurrence of fair and fraudulent blobs is 1:1</li><br />
+  <li>The probability that a fair blob will flip heads is 50%</li><br />
+  <li>The probability that a fraudulent blob will flip heads is 75%</li><br />
+</ol><br />
+<br />
+<p>Exercise:</p><br />
+<br />
+<p>In <a href="https://colab.research.google.com/drive/1BUIvHzubbpCzlsY1f0T0sWSJ2s95QAHH?usp=sharing">the interactive notebook, which you can find here</a>, you can implement an algorithm to decide what to do at each turn and test how well this algorithm works.</p><br />
+<br />
+<p>I hope that no previous programming experience is required for this, and everything is sufficiently explained in the notebook. If not, let me know in the comments.</p><br />
+ "| newline_to_br"is some stuff related to newlines displaying weirdly
+  https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html
+  See the post above
+-->
 
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<hyvor-talk-comments website-id="10504" page-id=""></hyvor-talk-comments>
+
+
+  <a class="u-url" href="/science/2023/05/15/catch-cheater.html" hidden></a>
 </article>
 
       </div>
